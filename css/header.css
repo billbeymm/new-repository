@@ -1,1 +1,15 @@
-@import url(/css/header.css);
+
+
+
+header {
+    height: 72px;
+    width: 1124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 119px;
+    height: 13px;
+    background-color: #999999;
+}

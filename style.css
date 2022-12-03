@@ -1,3 +1,29 @@
+@import url(/css/header.css);
 * {
     font-family: 'Times New Roman', Times, serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 899px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn {
+    width: 62px;
+    height: 27px;
+    background-color: #D9D9D9;
+    margin-right: 9px;
+    border: none;
+    font-size: 13px;
+}
+.btn:last-child {
+    margin: 0;
 }
