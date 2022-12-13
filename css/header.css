@@ -3,13 +3,38 @@
 
 header {
     height: 72px;
-    width: 1124px;
+    width: 100%;
+
+    display: flex;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 81px;
+    padding-right: 81px;
+}
+@media screen and (max-width: 1030px) {
+    header {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
 }
 .logo {
     width: 119px;
     height: 13px;
     background-color: #999999;
+}
+.actions {
+    width: 100%;
+    display: flex;
+    flex: row center;
+    justify-content: right;
+}
+@media screen and (max-width: 500px) {
+    .actions > button:last-child {
+        display: none;
+    }
+    .actions {
+        width: auto;
+    }
 }
